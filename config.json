@@ -1,0 +1,10 @@
+{
+  "host": "ftp server address",
+  "user": "username",
+  "password": "password",
+  "local_root": "local root",
+  "remote_root": "remote root",
+  "timeout": 300,
+  "ignore": "ignore.conf",
+  "track": "track.dat"
+}
