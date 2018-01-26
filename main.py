@@ -16,7 +16,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="------ FTP Sync ------")
     parser.add_argument('-c',  type=str)
     args = parser.parse_args()
-    print(args)
     with open(args.c) as fp:
         config = json.load(fp)
 
